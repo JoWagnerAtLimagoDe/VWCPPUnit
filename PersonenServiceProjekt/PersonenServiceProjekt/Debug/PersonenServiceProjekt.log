@@ -1,0 +1,4 @@
+﻿  person_service_impl.cpp
+C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\PersonenServiceProjekt\person_service_impl.cpp(25,33): warning C4101: "ex": Unreferenzierte lokale Variable
+C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\PersonenServiceProjekt\person_service_impl.cpp(37,33): warning C4101: "ex": Unreferenzierte lokale Variable
+  PersonenServiceProjekt.vcxproj -> C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\Debug\PersonenServiceProjekt.lib

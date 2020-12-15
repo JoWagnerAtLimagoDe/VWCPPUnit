@@ -1,0 +1,30 @@
+﻿  personen_service_impl_test.cpp
+C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\PersonenServiceProjektTest\PersonRepositoryMock.h(11,25): error C2061: Syntaxfehler: Bezeichner "save"
+C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\PersonenServiceProjektTest\PersonRepositoryMock.h(11,50): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\PersonenServiceProjektTest\PersonRepositoryMock.h(11,50): warning C4183: "MOCK_METHOD": Rückgabetyp fehlt; Memberfunktion, die "int" zurückgibt wird angenommen
+C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\PersonenServiceProjektTest\PersonRepositoryMock.h(12,44): error C2061: Syntaxfehler: Bezeichner "find_all"
+C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\PersonenServiceProjektTest\PersonRepositoryMock.h(12,68): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\PersonenServiceProjektTest\PersonRepositoryMock.h(12,68): warning C4183: "MOCK_METHOD": Rückgabetyp fehlt; Memberfunktion, die "int" zurückgibt wird angenommen
+C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\PersonenServiceProjektTest\PersonRepositoryMock.h(13,33): error C2061: Syntaxfehler: Bezeichner "find_by_id"
+C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\PersonenServiceProjektTest\PersonRepositoryMock.h(13,71): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\PersonenServiceProjektTest\PersonRepositoryMock.h(13,71): warning C4183: "MOCK_METHOD": Rückgabetyp fehlt; Memberfunktion, die "int" zurückgibt wird angenommen
+C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\PersonenServiceProjektTest\personen_service_impl_test.h(12,25): error C2259: "Mockperson_repository": Abstrakte Klasse kann nicht erstellt werden.
+C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\PersonenServiceProjektTest\PersonRepositoryMock.h(9): message : Siehe Deklaration von "Mockperson_repository"
+C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\PersonenServiceProjektTest\personen_service_impl_test.h(12,25): message : aufgrund folgender Member:
+C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\PersonenServiceProjektTest\personen_service_impl_test.h(12,25): message : "void person_repository::save(person)": ist abstrakt
+C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\PersonenServiceProjekt\PersonRepository.h(9): message : Siehe Deklaration von "person_repository::save"
+C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\PersonenServiceProjektTest\personen_service_impl_test.h(12,25): message : "std::vector<person,std::allocator<person>> person_repository::find_all(void) const": ist abstrakt
+C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\PersonenServiceProjekt\PersonRepository.h(10): message : Siehe Deklaration von "person_repository::find_all"
+C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\PersonenServiceProjektTest\personen_service_impl_test.h(12,25): message : "person person_repository::find_by_id(std::string) const": ist abstrakt
+C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\PersonenServiceProjekt\PersonRepository.h(11): message : Siehe Deklaration von "person_repository::find_by_id"
+  PersonRepositoryMock.cpp
+C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\PersonenServiceProjektTest\PersonRepositoryMock.h(11,25): error C2061: Syntaxfehler: Bezeichner "save"
+C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\PersonenServiceProjektTest\PersonRepositoryMock.h(11,50): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\PersonenServiceProjektTest\PersonRepositoryMock.h(11,50): warning C4183: "MOCK_METHOD": Rückgabetyp fehlt; Memberfunktion, die "int" zurückgibt wird angenommen
+C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\PersonenServiceProjektTest\PersonRepositoryMock.h(12,44): error C2061: Syntaxfehler: Bezeichner "find_all"
+C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\PersonenServiceProjektTest\PersonRepositoryMock.h(12,68): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\PersonenServiceProjektTest\PersonRepositoryMock.h(12,68): warning C4183: "MOCK_METHOD": Rückgabetyp fehlt; Memberfunktion, die "int" zurückgibt wird angenommen
+C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\PersonenServiceProjektTest\PersonRepositoryMock.h(13,33): error C2061: Syntaxfehler: Bezeichner "find_by_id"
+C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\PersonenServiceProjektTest\PersonRepositoryMock.h(13,71): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\PersonenServiceProjektTest\PersonRepositoryMock.h(13,71): warning C4183: "MOCK_METHOD": Rückgabetyp fehlt; Memberfunktion, die "int" zurückgibt wird angenommen
+  Code wird generiert...

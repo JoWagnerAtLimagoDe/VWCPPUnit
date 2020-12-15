@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Executable>C:\Users\JoachimWagner\source\repos\PersonenServiceProjekt\Debug\yyy.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="personen_service_impl_test.TestName" Duration="1" />
+    <TestDuration Test="personen_service_impl_test.speichern__vorname_zu_kurz__throws_personen_service_exception" Duration="1" />
+    <TestDuration Test="personen_service_impl_test.speichern__nachname_zu_kurz__throws_personen_service_exception" Duration="1" />
+    <TestDuration Test="personen_service_impl_test.speichern__antipath__throws_personen_service_exception" Duration="1" />
+    <TestDuration Test="personen_service_impl_test.speichern__exceptionInUnderlyingService__throws_personen_service_exception" Duration="1" />
+    <TestDuration Test="personen_service_impl_test.speichern__HappyDay__PersonSavedInRepo" Duration="1" />
+    <TestDuration Test="personen_service_impl_test.findePersonMitId__PersonNichtGefunden__returnsLeeresOptional" Duration="1" />
+    <TestDuration Test="personen_service_impl_test.findePersonMitId__PersonGefunden__returnsOptionalMitGefundenerPerson" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>
