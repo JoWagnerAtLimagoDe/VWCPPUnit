@@ -4,6 +4,7 @@
 
 #include "../SimpleMockDemoProjekt/MeinServiceUsesAktor.h"
 #include "AktorMock.h"
+#include "SensorMock.h"
 
 
 using namespace ::testing;
@@ -19,13 +20,15 @@ protected:
 	MeinServiceUsesAktor * objectUnderTest;
 	
 	MockAktor aktorMock;
+	SensorMock sensorMock;
+
 
 	ParameterStruct captureObj;
 
 
 	void SetUp() override
 	{
-		objectUnderTest = new MeinServiceUsesAktor(aktorMock);
+		objectUnderTest = new MeinServiceUsesAktor(aktorMock, sensorMock);
 	}
 
 	void TearDown() override

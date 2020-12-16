@@ -3,7 +3,8 @@
 TEST_F(MyServiceUsesAktor_test, foo__HappyDay__AktorCall) {
 	int parameterValue = 1;
 
-	EXPECT_CALL(aktorMock, doIt(_)).WillOnce(Invoke(this, &MyServiceUsesAktor_test::captureFunction));
+	EXPECT_CALL(aktorMock, doIt(_))
+		.WillOnce(Invoke(this, &MyServiceUsesAktor_test::captureFunction));
 
 	objectUnderTest->foo(parameterValue);
 

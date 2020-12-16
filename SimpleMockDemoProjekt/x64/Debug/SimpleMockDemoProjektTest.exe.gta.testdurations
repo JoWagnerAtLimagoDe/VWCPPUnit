@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Executable>C:\Users\JoachimWagner\source\repos\vw\SimpleMockDemoProjekt\x64\Debug\SimpleMockDemoProjektTest.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="MyServiceUsesAktor_test.foo__HappyDay__AktorCall" Duration="1" />
+    <TestDuration Test="MyServiceUsesAktor_test.foo__HappyDaySecond__AktorCall" Duration="1" />
+    <TestDuration Test="MyServiceUsesAktor_test.bar__HappyDaySecond__AktorCall" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>

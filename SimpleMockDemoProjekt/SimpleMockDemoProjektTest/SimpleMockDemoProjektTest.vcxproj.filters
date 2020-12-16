@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\lib\native\src\gtest\gtest-all.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\lib\native\src\gmock\gmock-all.cc" />
+    <ClCompile Include="MyServiceUsesAktor_test.cpp">
+      <Filter>Fixtures</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="AktorMock.h">
+      <Filter>mocks</Filter>
+    </ClInclude>
+    <ClInclude Include="SensorMock.h">
+      <Filter>mocks</Filter>
+    </ClInclude>
+    <ClInclude Include="MyServiceUsesAktor_test.h">
+      <Filter>Fixtures</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="mocks">
+      <UniqueIdentifier>{350cb4ee-0d6b-4201-b5ad-dcd0c76e6d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fixtures">
+      <UniqueIdentifier>{5c065f1f-bd2c-412f-b6d8-cd8acbed8b9b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
